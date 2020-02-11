@@ -13,4 +13,74 @@ body{
 .home_page_icon{
     width: 50px;
     height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: right;
+}
+header h1{
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    height: 60px;
+    background-color: beige;
+    box-shadow: 0px 0px 15px wheat ;
+    width: 15%;
+    font-size: 48px;
+}
+.contents{
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    position: relative;
+}
+.personal_info{
+    position: absolute;
+    border: red 1px dashed;
+    width: 29%;
+    text-align: center;
+    left: 0;
+}
+.timetable{
+    border: red 1px dashed;
+    position: absolute;
+    right: 0;
+    width: 70%;
+    text-align: center;
+}
+.timetable table{
+    margin: auto;
+    background: white;
+    width: 100%;
+    padding: 0;
+}
+
+.contents h1{
+    margin: 10px;
+    margin-bottom: 20px;
+    color: aquamarine;
+}
+td{
+    border: black 1px solid;
+    width: 80px;
+}
+tr{
+    height: 100px;
+}
+th{
+    border: black 1px solid;
+    width: 80px;
+}
+.timetable h2{
+    margin-bottom: 15px;
+}
+.timetable td[colspan="3"]{
+    color: aqua;
+    background: gray;
+}
+#CH{
+    color: aqua;
+    background: gray;
 }

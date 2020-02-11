@@ -1,32 +1,43 @@
-*{
+body{
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
 }
-body{
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+.cardholder{
+    width: 80%;
+    height: 80%;
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
 }
+.cardholder .card{
+    position: relative;
 
-.greetings{
-    margin: auto;
-    margin-top: 5px;
-    text-align: center;
-    width: 30%;
-    background-color: wheat;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px beige;
 }
-.about_page_icon{
-    margin-left: 5px;
-    width: 3%;
-    height: 3%;
-    border: none;
+.cardholder .card .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
 }
-footer{
-   width: 99%;
-   height: 30%;
-   background-color: white;
-   margin: auto;
+.cardholder .card .face .face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.cardholder .card .face .face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
 }
