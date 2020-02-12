@@ -1,43 +1,132 @@
-body{
+*{
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.cardholder{
-    width: 80%;
-    height: 80%;
-    margin-top: 50px;
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-}
-.cardholder .card{
-    position: relative;
 
+h1{
+    text-align: center;
 }
-.cardholder .card .face{
-    width: 300px;
-    height: 200px;
-    transition: 0.5s;
+
+body{
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+    background-size: cover;
 }
-.cardholder .card .face .face1{
-    position: relative;
-    background: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
+
+.home_page_icon{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: right;
 }
-.cardholder .card .face .face2{
-    position: relative;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+
+header h1{
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    height: 40px;
+    background-color: beige;
+    box-shadow: 0px 0px 15px wheat;
+    width: 15%;
+    font-size: 36px;
+}
+
+.contents{
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 80%;
+    padding: 10px;
+    border: red 1px solid;
+}
+
+.personal_info{
+    position: absolute;
+    width: 20%;
+    text-align: center;
+    left: 0;
+    padding: 10px;
+    border: green 1px solid;
+    left: 0;
+    margin-top: 15px;
+    box-shadow: 0 0 10px white;
+    background-color: #C6EFEB;
+}
+
+.timetable{
+    position: absolute;
+    right: 0;
+    width: 75%;
+    text-align: center;
+    right: 0;
+    margin-top: 15px;
+    border: yellow 1px solid;
+}
+
+.timetable table{
+    margin: auto;
+    background: white;
+    width: 100%;
+    padding: 0;
+}
+
+.contents h1{
+    margin: 10px;
+    margin-bottom: 20px;
+    color: aquamarine;
+}
+
+td{
+    border: black 1px solid;
+    width: 50px;
+    padding: 5px;
+}
+
+tr{
+    height: 80px;
+}
+
+th{
+    border: black 1px solid;
+    width: 50px;
+}
+
+.personal_info ul{
+    list-style: none;
+}
+
+.timetable h2{
+    width: 400px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px aliceblue;
+    background-color: #C6EFEB;
+    border-radius: 10px;
+}
+.timetable td[colspan="3"]{
+    color: aqua;
+    background: gray;
+}
+#CH{
+    color: aqua;
+    background: gray;
+}
+
+.personal_info p{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.personal_info h2{
+    box-shadow: 0 0 10px aliceblue;
+}
+
+.mood_images{
+    position: absolute;
+    border: blue 1px solid;
 }
